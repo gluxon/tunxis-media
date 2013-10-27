@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+	margin: 0; padding: 0;
+
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(0,0,0, 0.8);
+}
+
+h1 { font: 300 30px/30px "Open Sans"; color: white; }
+h2 { font: 300 28px/28px "Open Sans"; }
+
+.container {
+	max-width: 800px;
+	margin: auto;
+}
+
+header {
+	background-color: /*#4CBB17*/ #218457;
+	padding: 15px 0;
+	overflow: hidden;
+}
+
+header h1 {
+	margin: 0; padding: 0;
+	display: block;
+	float: left;
+}
+
+#search {
+	margin-top: 2px;
+	float: right;
+}
+
+#search input[type=text] {
+	width: 200px; height: 20px;
+
+	background-color: #255f44;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 3px;
+}
+
+#search input[type=submit] {
+	margin: 0 0 0 3px; padding: 0;
+	color: rgba(255,255,255, 0.8);
+	font-size: 16px; line-height: 18px;
+
+	background: none;
+	border: none;
+}
+
+nav {
+	margin: 0; padding: 8px 10%;
+	background-color: #00B060;
+	font-size: 18px; line-height: 18px;
+	overflow: hidden;
+}
+
+#nav {
+	margin: 5px 0; padding: 0;
+	display: block;
+	list-style-type: none;
+	float: left;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: block;
+	color: rgba(255,255,255, 0.8);
+	text-decoration: none;
+}
+
+#nav li + li {
+	margin-left: 20px;
+}
+
+#aboutus {
+	margin: 5px 0;
+
+	color: rgba(255,255,255, 0.8);
+	text-decoration: none;
+
+	display: block;
+	float: right;
+}
+
+#content {
+	padding: 0 10%;
+}
+
+article {
+	max-width: 800px;
+	margin: auto;
+}
